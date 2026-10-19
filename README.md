@@ -49,7 +49,7 @@ results/
 └── tables/                final tables (occupancy per scan, EC50, QC flags)
 ```
 
-A flowchart of the pipeline is in `docs/pipeline.drawio`.
+![Pipeline](docs/pipeline.svg)
 
 QC never deletes data: each check flags rows as *exclude* (not used in later
 steps) or *warning* (kept, reported). All flags are collected in the QC report.
